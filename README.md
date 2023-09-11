@@ -15,6 +15,7 @@ Here's a quick guide for setting up the bot on the [discord developers page](htt
  - Go to the 'Bot' Tab on the left menu.
  - Scroll down to Authorization Flow and make these changes (including Privileged Gateway Intents):
  ![Alt text](image-3.png)
+ - Now scroll back up, click on 'Reset Token' and copy the token and save it for later use. This is your bot's ID.
  - Now, go to the OAuth Tab on the menu, and click on URL Generator.
     - Scopes:
     ![Alt text](image.png)
@@ -22,7 +23,7 @@ Here's a quick guide for setting up the bot on the [discord developers page](htt
     - Permissions:
     ![Alt text](image-1.png)
 
-- Now scroll back up, click on 'Reset Token' and copy the token and save it for later use. This is your bot's ID.
+
 - There should be a URL at the bottom . Copy that, open it in a new tab and invite the bot to your server.
 
 ## Installing the API 
